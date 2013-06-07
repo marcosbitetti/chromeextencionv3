@@ -1,0 +1,15 @@
+*.pem
+Thumbs.db
+Desktop.ini
+.project
+.tmp*
+*.log
+*.pid
+*~
+*.swp
+.#*
+Thumbs
+.config
+config
+temp
+.svn

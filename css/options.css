@@ -1,0 +1,54 @@
+@import url("fonts.css");
+
+html {
+  width: 100%; height: 100%;
+  overflow: hidden;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #ffffff; background: #050402;
+  margin: 0px; padding: 10px;
+  background: url(../img/bg_config.jpg);
+  background-position: 0px 0px;
+  background-size: 100% 100%;
+}
+
+
+
+h1 { font-size: 16px; }
+h2 { font-size: 14px; }
+h3,h4,h5,h6 {
+  font-size: 12px;
+  margin: 0px; padding: 0px;
+}
+
+#main_options {
+  position: absolute;
+  left: 50%; top: 86px;
+  width: 600px;
+  margin-left: -300px;
+  padding: 12px;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid rgba(80,80,80,0.8);
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  -webkit-box-shadow:  0px 0px 26px 1px rgba(0, 0, 0, 0.6);
+  box-shadow:  0px 0px 26px 1px rgba(0, 0, 0, 0.6);
+}
+
+#main_options label, #main_options input[type=text], #main_options textarea {
+  display: block;
+  width: 100%;
+}
+
+#main_options fieldset {
+  border: none;
+}
+
+iframe {
+  width: 43%; height: 400px;
+  min-width: 480px;
+  border: none;
+}
